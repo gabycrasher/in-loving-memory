@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#132a24">
+    <meta name="description" content="In loving memory of Mwai Anthony: a remarkable friend, mentor, husband, father, and man of faith.">
+    <title>Mwai Anthony | A Beautiful Life, Forever Remembered</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body class="celebration-mode">
+    <a class="skip-link" href="#main">Skip to the tribute</a>
+    <div id="page-progress" class="page-progress" aria-hidden="true"><span></span></div>
+    <nav class="chapter-rail" aria-label="Tribute chapters">
+      <span class="chapter-rail-line" aria-hidden="true"></span>
+      <a href="#top" data-chapter="Opening" class="is-active"><i aria-hidden="true"></i><span>Opening</span></a>
+      <a href="#his-life" data-chapter="His life"><i aria-hidden="true"></i><span>His life</span></a>
+      <a href="#memory-film" data-chapter="Memory film"><i aria-hidden="true"></i><span>Memory film</span></a>
+      <a href="#memories" data-chapter="Photographs"><i aria-hidden="true"></i><span>Photographs</span></a>
+      <a href="#tribute" data-chapter="Tribute"><i aria-hidden="true"></i><span>Tribute</span></a>
+    </nav>
+
+    <nav class="topbar" aria-label="Memorial navigation">
+      <a class="wordmark" href="#top">Mwai <span>Anthony</span></a>
+      <div class="nav-links">
+        <a href="#his-life">His life</a>
+        <a href="#memory-film">Memory film</a>
+        <a href="#memories">Memories</a>
+        <a href="#tribute">Tribute</a>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <img class="hero-photo" src="assets/photos/memory-01.jpg" alt="A joyful family moment surrounded by green countryside" width="684" height="912">
+      <canvas id="memory-particles" class="memory-particles" aria-hidden="true"></canvas>
+      <div id="pixel-reveal" class="pixel-reveal" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="hero-kicker reveal">A birthday celebration &amp; lasting tribute</p>
+        <h1>
+          <span class="hero-memorial">In loving memory of</span>
+          <span class="hero-name"><span>Mwai</span> <em>Anthony</em></span>
+        </h1>
+        <p class="hero-legacy">A beautiful life, forever remembered.</p>
+        <p class="hero-lead reveal" data-story-copy aria-live="polite">Today we celebrate the joy he gave, the wisdom he shared, and the love that lives on in every person he touched.</p>
+
+        <div id="story-toggle" class="story-toggle reveal" role="group" aria-label="Choose the tone of the tribute">
+          <button class="story-option is-active" type="button" data-mode="celebration" aria-pressed="true">Celebrate</button>
+          <button class="story-option" type="button" data-mode="reflection" aria-pressed="false">Remember</button>
+          <span class="story-toggle-indicator" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#his-life">
+        <span>Continue his story</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14m0 0 6-6m-6 6-6-6"/></svg>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="opening" id="his-life" aria-labelledby="opening-title">
+        <div class="section-number" aria-hidden="true">01</div>
+        <div class="opening-copy reveal">
+          <p class="eyebrow">The measure of a man</p>
+          <h2 id="opening-title">He made people feel seen, supported, and glad to be near him.</h2>
+          <p>He was a great friend, a trusted mentor, a man of faith, a loving father and husband, and someone who always put smiles on people's faces. His strength was gentle, his wisdom was generous, and his presence made ordinary days feel worth remembering.</p>
+        </div>
+        <div class="memory-count reveal" aria-label="Twenty-four photographs in this tribute">
+          <strong data-count="24">0</strong>
+          <span>moments of<br>love and laughter</span>
+        </div>
+      </section>
+
+      <section class="virtues" aria-label="The qualities he shared with the world">
+        <article class="virtue reveal">
+          <p>01</p>
+          <h3>Friend</h3>
+          <span>The kind who showed up, listened well, and left every room lighter.</span>
+        </article>
+        <article class="virtue reveal">
+          <p>02</p>
+          <h3>Mentor</h3>
+          <span>He gave direction with patience and believed in the people around him.</span>
+        </article>
+        <article class="virtue reveal">
+          <p>03</p>
+          <h3>Man of faith</h3>
+          <span>He walked with God, served with humility, and led through example.</span>
+        </article>
+        <article class="virtue reveal">
+          <p>04</p>
+          <h3>Family man</h3>
+          <span>A loving father and husband whose family stood at the heart of his life.</span>
+        </article>
+      </section>
+
+      <section class="memory-film" id="memory-film" aria-labelledby="film-title">
+        <div class="film-heading reveal">
+          <div>
+            <p class="eyebrow">A life in motion</p>
+            <h2 id="film-title">Six frames.<br>One beautiful story.</h2>
+          </div>
+          <p>Move through a few of the moments that say so much: the family he loved, the journeys he shared, and the faith that guided him.</p>
+        </div>
+
+        <div id="film-stage" class="film-stage reveal" tabindex="0" aria-label="Memory film. Use the previous and next buttons or arrow keys to change scenes.">
+          <figure class="film-slide is-active" data-film-slide aria-hidden="false">
+            <img src="assets/photos/memory-04.jpg" alt="Family gathered together around a table outdoors" loading="lazy" width="912" height="684">
+            <figcaption class="film-caption-surface"><span>01 / Together</span><strong>He made every gathering feel like home.</strong></figcaption>
+          </figure>
+          <figure class="film-slide" data-film-slide aria-hidden="true">
+            <img src="assets/photos/memory-08.jpg" alt="Sharing an airplane journey with family" loading="lazy" width="684" height="912">
+            <figcaption class="film-caption-surface"><span>02 / Journeys</span><strong>The best places were the ones reached together.</strong></figcaption>
+          </figure>
+          <figure class="film-slide" data-film-slide aria-hidden="true">
+            <img src="assets/photos/memory-10.jpg" alt="Family celebrating an important school milestone" loading="lazy" width="1008" height="567">
+            <figcaption class="film-caption-surface"><span>03 / Milestones</span><strong>He celebrated the people he loved with his whole heart.</strong></figcaption>
+          </figure>
+          <figure class="film-slide" data-film-slide aria-hidden="true">
+            <img src="assets/photos/memory-19.jpg" alt="A peaceful moment beside a beautiful lake" loading="lazy" width="810" height="1080">
+            <figcaption class="film-caption-surface"><span>04 / Stillness</span><strong>He knew how to find wonder in an ordinary day.</strong></figcaption>
+          </figure>
+          <figure class="film-slide" data-film-slide aria-hidden="true">
+            <img src="assets/photos/memory-22.jpg" alt="A proud family moment at a special celebration" loading="lazy" width="720" height="960">
+            <figcaption class="film-caption-surface"><span>05 / Family</span><strong>Love was the center of everything he built.</strong></figcaption>
+          </figure>
+          <figure class="film-slide" data-film-slide aria-hidden="true">
+            <img src="assets/photos/memory-23.jpg" alt="A moment of humble service and care" loading="lazy" width="799" height="449">
+            <figcaption class="film-caption-surface"><span>06 / Faith</span><strong>His faith could be seen in the way he served.</strong></figcaption>
+          </figure>
+
+          <div class="film-chrome">
+            <div class="film-controls">
+              <button id="film-prev" type="button" aria-label="Previous memory">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+              </button>
+              <button id="film-play" class="film-primary-control" type="button" aria-label="Play memory film" aria-pressed="false">
+                <svg class="film-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 7 8 5-8 5Z"/></svg>
+                <svg class="film-pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7v10M15 7v10"/></svg>
+                <span class="sr-only">Play memories</span>
+              </button>
+              <button id="film-next" type="button" aria-label="Next memory">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+              </button>
+            </div>
+            <span class="film-gesture-hint" aria-hidden="true"><i></i></span>
+            <div class="film-timeline" aria-label="Choose a memory">
+              <button class="is-active" type="button" data-film-jump="0" aria-label="Show memory 1" aria-pressed="true"><i></i></button>
+              <button type="button" data-film-jump="1" aria-label="Show memory 2" aria-pressed="false"><i></i></button>
+              <button type="button" data-film-jump="2" aria-label="Show memory 3" aria-pressed="false"><i></i></button>
+              <button type="button" data-film-jump="3" aria-label="Show memory 4" aria-pressed="false"><i></i></button>
+              <button type="button" data-film-jump="4" aria-label="Show memory 5" aria-pressed="false"><i></i></button>
+              <button type="button" data-film-jump="5" aria-label="Show memory 6" aria-pressed="false"><i></i></button>
+            </div>
+            <p id="film-status" class="film-status" aria-live="polite">Memory 1 of 6: Together</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-story" aria-label="A few favorite memories">
+        <figure class="story-photo story-photo-main reveal">
+          <img src="assets/photos/memory-19.jpg" alt="Enjoying a peaceful day beside the lake" loading="lazy" width="810" height="1080">
+          <figcaption>Joy lived in the everyday moments.</figcaption>
+        </figure>
+        <figure class="story-photo story-photo-small reveal">
+          <img src="assets/photos/memory-24.jpg" alt="Dressed for a special family celebration" loading="lazy" width="352" height="534">
+          <figcaption>A steady hand. A joyful heart.</figcaption>
+        </figure>
+        <div class="story-statement reveal">
+          <p class="eyebrow">The gift he gave us</p>
+          <blockquote>“Some people leave footprints on our hearts so deep that time can never wash them away.”</blockquote>
+        </div>
+      </section>
+
+      <section class="birthday" aria-labelledby="birthday-title">
+        <div class="birthday-shape" aria-hidden="true"></div>
+        <div class="birthday-copy reveal">
+          <p class="eyebrow">On your birthday</p>
+          <h2 id="birthday-title">We celebrate every laugh, every lesson, and every life you made better.</h2>
+          <p>There is gratitude in remembering you. Gratitude for the friendships you nurtured, the family you cherished, the faith you lived, and the happiness you created simply by being yourself.</p>
+        </div>
+        <figure class="birthday-photo reveal">
+          <img src="assets/photos/memory-03.jpg" alt="Smiling outdoors among green fields" loading="lazy" width="684" height="912">
+        </figure>
+      </section>
+
+      <section class="faith" aria-labelledby="faith-title">
+        <div class="faith-photo" aria-hidden="true">
+          <img src="assets/photos/memory-23.jpg" alt="" loading="lazy" width="799" height="449">
+        </div>
+        <div class="faith-copy reveal">
+          <p class="eyebrow">Faithful in all things</p>
+          <h2 id="faith-title">“Well done, good and faithful servant.”</h2>
+          <p>Matthew 25:23</p>
+          <span>His faith was not only spoken. It was present in the way he served, encouraged, forgave, and loved.</span>
+        </div>
+      </section>
+
+      <section class="gallery" id="memories" aria-labelledby="gallery-title">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="eyebrow">His life in pictures</p>
+            <h2 id="gallery-title">The moments<br>we keep.</h2>
+          </div>
+          <p>Twenty-four glimpses of a life rich in family, faith, friendship, travel, and the quiet joy of being together.</p>
+        </div>
+
+        <div class="gallery-toolbar reveal">
+          <div class="gallery-filters" role="group" aria-label="Filter photographs">
+            <button class="is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" data-filter="family" aria-pressed="false">Family</button>
+            <button type="button" data-filter="journey" aria-pressed="false">Journeys</button>
+            <button type="button" data-filter="milestone" aria-pressed="false">Milestones</button>
+            <button type="button" data-filter="faith" aria-pressed="false">Faith</button>
+          </div>
+          <p id="gallery-result" aria-live="polite">Showing all 24 moments</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item item-tall reveal" type="button" data-category="family" data-caption="A beautiful day surrounded by family and nature."><img src="assets/photos/memory-01.jpg" alt="A happy family moment in the countryside" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="Together in the places that became part of the story."><img src="assets/photos/memory-02.jpg" alt="A smiling couple outdoors in a garden" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="journey" data-caption="That unmistakable smile."><img src="assets/photos/memory-03.jpg" alt="A warm outdoor portrait" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="family" data-caption="Family time was always time well spent."><img src="assets/photos/memory-04.jpg" alt="Family gathered around a table outdoors" loading="lazy" width="912" height="684"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="family journey" data-caption="A view made brighter by the people in it."><img src="assets/photos/memory-05.jpg" alt="A family selfie overlooking the water" loading="lazy" width="912" height="684"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="An adventure shared is a memory doubled."><img src="assets/photos/memory-06.jpg" alt="Holding a young child beside a gorilla sculpture" loading="lazy" width="567" height="1008"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="Always making room for one more smile."><img src="assets/photos/memory-07.jpg" alt="Family enjoying an outdoor attraction together" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="Going places together."><img src="assets/photos/memory-08.jpg" alt="Sharing an airplane journey with family" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family" data-caption="The smallest moments became the biggest treasures."><img src="assets/photos/memory-09.jpg" alt="Holding a young child during an evening outing" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="family milestone" data-caption="Proud of every milestone."><img src="assets/photos/memory-10.jpg" alt="Family celebrating a school milestone" loading="lazy" width="1008" height="567"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family" data-caption="Love looked like being present."><img src="assets/photos/memory-11.jpg" alt="A gentle moment with a smiling young child" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="family" data-caption="Family, always at the center."><img src="assets/photos/memory-12.jpg" alt="A family portrait at home" loading="lazy" width="1008" height="567"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="journey" data-caption="A life of dignity and quiet confidence."><img src="assets/photos/memory-13.jpg" alt="Standing proudly outside a city building" loading="lazy" width="567" height="1008"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family" data-caption="Laughter gathered everyone close."><img src="assets/photos/memory-14.jpg" alt="A cheerful family gathering" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="journey" data-caption="A thoughtful moment in a well-travelled life."><img src="assets/photos/memory-15.jpg" alt="A portrait overlooking a green city view" loading="lazy" width="810" height="1080"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="Together was his favorite place to be."><img src="assets/photos/memory-16.jpg" alt="A close family selfie outdoors" loading="lazy" width="960" height="1280"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family" data-caption="A father's love, steady and close."><img src="assets/photos/memory-17.jpg" alt="A quiet moment with a young child" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family journey" data-caption="Every journey held a reason to smile."><img src="assets/photos/memory-18.jpg" alt="Smiling with family by a lake" loading="lazy" width="684" height="912"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="journey" data-caption="Peace by the water."><img src="assets/photos/memory-19.jpg" alt="Standing beside a peaceful lake" loading="lazy" width="810" height="1080"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="family journey" data-caption="Love filled every frame."><img src="assets/photos/memory-20.jpg" alt="Family together at a scenic viewpoint" loading="lazy" width="912" height="684"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="journey" data-caption="Taking time to enjoy the view."><img src="assets/photos/memory-21.jpg" alt="Relaxing beside a lakeside railing" loading="lazy" width="810" height="1080"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="faith milestone family" data-caption="Faith, family, and the milestones that matter."><img src="assets/photos/memory-22.jpg" alt="Dressed formally with family after a special occasion" loading="lazy" width="720" height="960"></button>
+          <button class="gallery-item item-wide reveal" type="button" data-category="faith" data-caption="Faith expressed through humble service."><img src="assets/photos/memory-23.jpg" alt="A moment of service and care" loading="lazy" width="799" height="449"></button>
+          <button class="gallery-item item-tall reveal" type="button" data-category="family milestone" data-caption="A cherished memory from years gone by."><img src="assets/photos/memory-24.jpg" alt="A formal portrait with a young child" loading="lazy" width="352" height="534"></button>
+        </div>
+      </section>
+
+      <section class="tribute" id="tribute" aria-labelledby="tribute-title">
+        <figure class="tribute-photo reveal">
+          <img src="assets/photos/memory-22.jpg" alt="A proud family moment at a special celebration" loading="lazy" width="720" height="960">
+        </figure>
+        <div class="tribute-copy reveal">
+          <p class="eyebrow">In loving memory</p>
+          <h2 id="tribute-title">Mwai Anthony, your love remains part of who we are.</h2>
+          <p>We will miss your counsel, your laughter, your faith, and the easy way you brought people together. We will remember a great friend and mentor, a loving father and husband, and a man whose life pointed others toward goodness.</p>
+          <p>Though we cannot make new memories with you, the ones you gave us will keep speaking: in our choices, in our stories, in our prayers, and in every smile your name brings back.</p>
+          <p class="tribute-signoff">Forever loved. Forever missed. Forever remembered.</p>
+        </div>
+      </section>
+
+      <section class="candle-section" aria-labelledby="candle-title">
+        <div id="dot-heart" class="dot-heart" aria-hidden="true"></div>
+        <div class="candle-copy reveal">
+          <p class="eyebrow">A quiet moment</p>
+          <h2 id="candle-title">Light a candle for a life that lit up so many others.</h2>
+          <p id="candle-message" aria-live="polite">May his memory remain a blessing, and may his light continue through us.</p>
+          <button id="light-candle" class="candle-button" type="button">
+            <span class="candle-icon" aria-hidden="true"><i></i></span>
+            <span>Light the candle</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top">Mwai <span>Anthony</span></a>
+      <p>A beautiful life, held in every heart he touched.</p>
+      <div class="footer-actions">
+        <button id="print-tribute" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V4h10v5M7 18H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M7 14h10v6H7z"/></svg>
+          <span>Print keepsake</span>
+        </button>
+        <a href="#top">Back to the beginning</a>
+      </div>
+    </footer>
+
+    <nav class="mobile-dock" aria-label="Mobile tribute navigation">
+      <a href="#top" data-mobile-nav class="is-active" aria-label="Opening">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h13V10M9.5 20v-6h5v6"/></svg>
+        <span>Home</span>
+      </a>
+      <a href="#his-life" data-mobile-nav aria-label="His life">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5S4 16 4 9.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 3.5c0 6.5-8 11-8 11Z"/></svg>
+        <span>Life</span>
+      </a>
+      <a href="#memory-film" data-mobile-nav aria-label="Memory film">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9 5 3-5 3Z"/></svg>
+        <span>Film</span>
+      </a>
+      <a href="#memories" data-mobile-nav aria-label="Photographs">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m4 17 5-4 3 2 3-3 5 5"/></svg>
+        <span>Photos</span>
+      </a>
+      <a href="#tribute" data-mobile-nav aria-label="Tribute">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M8 7h8M8 21h8"/></svg>
+        <span>Tribute</span>
+      </a>
+    </nav>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close photograph">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous photograph">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+      </button>
+      <figure>
+        <img src="" alt="">
+        <figcaption>
+          <span id="lightbox-caption" class="lightbox-caption"></span>
+          <span class="lightbox-count"></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Next photograph">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <noscript><p class="noscript">The photographs and tribute remain available, but the interactive gallery needs JavaScript.</p></noscript>
+  </body>
+</html>
